@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto+Mono0&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    
+ 
+
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+ 
+}
+
+
+.context {
+    width: 100%;
+    position: absolute;
+
+    
+}
+
+.context {
+    text-align: center;
+    color: #fff;
+   
+}
+
+
+.area{
+    background: rgb(173,0,255);
+background: linear-gradient(52deg, rgba(173,0,255,1) 0%, rgba(27,0,255,0.9766106271610207) 49%, rgba(173,0,255,0.9962184702982756) 100%);  
+    width: 100%;
+    height:100vh;
+    
+   
+}
+
+.circles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.circles li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 25s linear infinite;
+    bottom: -150px;
+    
+}
+
+.circles li:nth-child(1){
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+
+
+.circles li:nth-child(2){
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+
+.circles li:nth-child(3){
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+}
+
+.circles li:nth-child(4){
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.circles li:nth-child(5){
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(6){
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+}
+
+.circles li:nth-child(7){
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+}
+
+.circles li:nth-child(8){
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+}
+
+.circles li:nth-child(9){
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+}
+
+.circles li:nth-child(10){
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+
+
+@keyframes animate {
+
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+
+}
+
+.summ1{
+  background: rgb(255,0,213);
+background: linear-gradient(52deg, rgba(255,0,213,0.35196076721704306) 0%, rgba(255,0,221,0.2959383582534576) 49%, rgba(173,0,255,0.2595237924271271) 100%);
+
+
+}
+
+.sum2{
+    background: rgb(255,0,213);
+background: linear-gradient(101deg, rgba(255,0,213,0.16428569718903185) 0%, rgba(77,232,208,0.27072827421984413) 21%, rgba(173,0,255,0.15028009494813555) 100%); 
+position:relative ; 
+margin-top: -20px;
+ border-top-left-radius: 10px; 
+ border-top-right-radius: 10px;
+}
+.sum2 h1 {
+
+    font-family: 'Roboto Mono', sans-serif; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+.sum2 p{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+@media screen and (min-width: 601px) {
+  .sum2 h1{
+    font-size: 4vw;
+  }
+  .sum2 p{
+    font-size: 2vw;
+  }
+  .q1 h1{
+
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  .sum2 h1 {
+    font-size: 50px;
+  }
+  .sum2 p {
+    font-size: 5vw;
+  }
+}
+
+.okcontainer {
+  width: 100%;
+  background-color: #ddd;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+}
+
+.skills {
+    font-family: 'Roboto Condensed', sans-serif;
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+.skmil{
+    font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.html {width: 90%; background-color: #04AA6D;}
+.css {width: 60%; background-color: #2196F3;}
+.javascript {width: 76%; background-color: #f44336;}
+.php {width: 85%; background-color: #808080;}
+.node {width: 40%; background-color: #04AA6D;}
+.flask {width: 60%; background-color: #808080;}
+.hr {width: 90%; background-color: #f20336;}
+.bootstrap {width: 90%; background-color: #f30336;}
+.word {width: 89%; background-color: #02AA6D;}
+.medias {width: 95%; background-color: #2196F3;}
+.ads {width: 96%; background-color: #01AA0D;}
+.seo {width: 92%; background-color:#808080;}
+
+.wrapper {
+  display: inline-flex;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+
+i {
+  padding: 0px 10px;
+}
+
+a{
+    text-decoration: none ;
+}
+
+.wrapper i:nth-child(1) {
+  color: #4867AA;
+  cursor: pointer;
+  text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
+  transition: all ease-in-out 150ms;
+}
+
+.wrapper i:nth-child(1):hover {
+  margin-top: -10px;
+  text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
+  transform: translate(0, -8);
+}
+
+.wrapper i:nth-child(2) {
+  color: #1DA1F2;
+  cursor: pointer;
+  text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
+  transition: all ease-in-out 150ms;
+}
+
+.wrapper i:nth-child(2):hover {
+  margin-top: -10px;
+  text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
+  transform: translate(0, -8);
+}
+
+.wrapper i:nth-child(3) {
+  color: #444;
+  cursor: pointer;
+  text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+  transition: all ease-in-out 150ms;
+}
+
+.wrapper i:nth-child(3):hover {
+  margin-top: -10px;
+  text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
+  transform: translate(0, -5);
+}
+.wrapper i:nth-child(4) {
+  color: #0e76a8;
+  cursor: pointer;
+  text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
+  transition: all ease-in-out 150ms;
+}
+.wrapper i:nth-child(4):hover {
+  margin-top: -10px;
+  text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
+  transform: translate(0, -8);
+}
+
+#button {
+  display: inline-block;
+  background-color: #FF9800;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#button:active {
+  background-color: #555;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+  </style>
+</head>
+<body onload="type()">
+
+<!-- Back to top button -->
+<a id="button"></a>
+
+<div class="context">
+    
+
+ <div class="container text-center">
+    <div class="col">
+        <h5 class="" data-aos="fade-right" data-aos-duration="1000" style="margin-top:200px;font-family: 'Roboto Condensed', sans-serif; font-size: 7vh;">Hi, I am</h5>
+        <h1 id="name" data-aos="fade-left" data-aos-duration="1200" class="mt-4" style="font-family: 'Roboto Mono', sans-serif; font-size: 14vh; font-weight: bold;"></h1>
+        <h5 class="mt-4" data-aos="fade-right" data-aos-duration="1500" id="de" style="font-family: 'Roboto Condensed', sans-serif; font-size: 7vh;">a WEB DEVELOPER</h5>
+    </div>
+    </div></div>
+
+
+
+<div class="area" >
+            <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+    </div >
+
+<div class="container-fluid sum1" style="">
+        <div class="col sum2 "  >
+            <div class=" " style="padding-top: 200px; padding-bottom: 200px; padding-left: 50px; padding-right: 50px;">
+                <h1 data-aos="zoom-in-up" data-aos-duration="2000" class="text-center" >Let's talk a bit about me... </h1>
+                <p data-aos="fade-left" data-aos-duration="2200">I am Web Developer Having Knowledge in Bootstrap, PHP, Wordpress, Node.js, and Pyhton Flask in Web applications. Also got skills in Search Engine Optimizations, Social Media Marketing, Ads Campaign Optimizer and Humand Resource Manager. I love exploring new things, new technologies and gadgets. Love to learn new Skills and Adaptive in nature. </p>
+                
+            </div>
+            
+        </div>
+        
+    </div>
+    <div class="container-fluid " style=" background: rgb(0,247,255);
+background: linear-gradient(42deg, rgba(0,247,255,0.2735293946680235) 0%, rgba(77,149,232,0.40238093528427) 50%, rgba(0,106,255,0.3351540445279675) 100%); ">
+        <div class="col  " style="padding-top: 100px; padding-bottom: 200px; padding-left: 50px; padding-right: 50px;"  >
+            
+                <h1 class="text-center mb-5" style="font-size: vh; font-weight: bold;" data-aos="fade-up" data-aos-duration="2000">My Qualification <i class="fa fa-book"></i></h1>
+
+                <div class="row mt-5 text-center">
+                    <div class="col-lg-6 flex-column mt-5" data-aos="fade-right" data-aos-duration="2500">
+                       <i class="mt-2 fa fa-university" style="font-size: 50px"></i> 
+                        <h2 class="mt-2 " >Prafulla Chandra College</h2>
+                        <p class="mt-2">B.com (2020 - Pursuing)</p>
+                        
+                    </div>
+                    <div class="col-lg-6 flex-column mt-5" data-aos="fade-left" data-aos-duration="2500">
+                        <i class="mt-2 fas fa-school" style="font-size: 50px"></i>
+                        <h2 class="mt-2">Better High School (BHS)</h2>
+                        <p class="mt-2">ISC (2018 - 2020)</p>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+
+     <div class="container-fluid " style="background: rgb(255,0,50);
+background: linear-gradient(42deg, rgba(255,0,50,0.08305320419183293) 16%, rgba(77,149,232,0.18109241987810754) 58%, rgba(255,0,110,0.10546216777726714) 93%);">
+        <div class="col  " style="padding-top: 100px; padding-bottom: 200px; padding-left: 50px; padding-right: 50px;"  >
+            
+                <h1  class="text-center mb-5"  data-aos="zoom-in-right" data-aos-duration="2500" style="font-size: vh; font-weight: bold;">My Skills <i class="fas fa-tools"></i></h1>
+
+                <div class="col skmil" style="">
+                    <div class="mt-4" >
+                    <p data-aos="zoom-in-up" data-aos-duration="2500">HTML</p>
+                    <div class="okcontainer" data-aos="zoom-in-up" data-aos-duration="2500">
+                      <div class="skills html">90%</div>
+                    </div></div>
+                     <div class="mt-4">
+                    <p data-aos="zoom-in-up" data-aos-duration="2600">CSS</p>
+                    <div class="okcontainer" data-aos="zoom-in-up" data-aos-duration="2600">
+                      <div class="skills css">60%</div>
+                    </div></div>
+                     <div class="mt-4">
+                    <p data-aos="zoom-in-up" data-aos-duration="2700">JAVASCRIPT</p>
+                    <div data-aos="zoom-in-up" data-aos-duration="2700" class="okcontainer" >
+                      <div class="skills javascript">76%</div>
+                    </div></div>
+                     <div class="mt-4">
+                    <p data-aos="zoom-in-up" data-aos-duration="2500">PHP</p>
+                    <div class="okcontainer" data-aos="zoom-in-up" data-aos-duration="2500">
+                      <div class="skills php">85%</div>
+                    </div></div>
+                     <div class="mt-4">
+                    <p data-aos="zoom-in-up" data-aos-duration="2500"> BOOTSTRAP</p>
+                    <div class="okcontainer" data-aos="zoom-in-up" data-aos-duration="2500">
+                      <div class="skills bootstrap">90%</div>
+                    </div></div>
+                     <div class="mt-4">
+                    <p data-aos="zoom-in-up" data-aos-duration="2500">NODE.JS</p>
+                    <div class="okcontainer" data-aos="zoom-in-up" data-aos-duration="2500">
+                      <div class="skills node">40%</div>
+                    </div></div>
+                     <div class="mt-4">
+                    <p data-aos="zoom-in-up" data-aos-duration="2500">PYTHON FLASK</p>
+                    <div class="okcontainer" data-aos="zoom-in-up" data-aos-duration="2500">
+                      <div class="skills flask">60%</div>
+                    </div></div>
+                     <div class="mt-4">
+                    <p data-aos="zoom-in-up" data-aos-duration="2500">HUMAN HR</p>
+                    <div class="okcontainer" data-aos="zoom-in-up" data-aos-duration="2500">
+                      <div class="skills hr">90%</div>
+                    </div></div>
+                     <div class="mt-4">
+                    <p data-aos="zoom-in-up" data-aos-duration="2500">WORDPRESS</p>
+                    <div class="okcontainer" data-aos="zoom-in-up" data-aos-duration="2500">
+                      <div class="skills word">89%</div>
+                    </div></div>
+                     <div class="mt-4">
+                    <p data-aos="zoom-in-up" data-aos-duration="2500">SOCIAL MEDIA</p>
+                    <div class="okcontainer" data-aos="zoom-in-up" data-aos-duration="2500">
+                      <div class="skills medias">95%</div>
+                    </div></div>
+                     <div class="mt-4">
+                    <p data-aos="zoom-in-up" data-aos-duration="2500">SEO</p>
+                    <div class="okcontainer" data-aos="zoom-in-up" data-aos-duration="2500">
+                      <div class="skills seo">92%</div>
+                    </div></div>
+                     <div class="mt-4">
+                    <p data-aos="zoom-in-up" data-aos-duration="2500">ADS OPTIMIZATION</p>
+                    <div class="okcontainer" data-aos="zoom-in-up" data-aos-duration="2500">
+                      <div class="skills ads">96%</div>
+                    </div></div>
+
+                    
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+   <div class="container-fluid " style="  background: rgb(255,0,50);
+background: linear-gradient(42deg, rgba(255,0,50,0.2287114674971551) 16%, rgba(104,77,232,0.3631652490097601) 58%, rgba(255,0,110,0.2567226719789478) 93%);  ">
+        <div class="col  " style="padding-top: 50px; padding-bottom: 150px; padding-left: 50px; padding-right: 50px;"  >
+            
+                <h1 class="text-center " data-aos="flip-right" data-aos-duration="2500" style="font-size: vh; font-weight: bold;">In case you wanna connect with me... <i class="fa fa-link"></i></h1>
+              
+                <div class="wrapper d-flex justify-content-center ">
+                      <a href="https://www.facebook.com/dibyadey29/"><i class="fa fa-5x fa-facebook-square" style="color: #4267B2;"></i></a>
+
+                      <a href="https://twitter.com/Dibya92114934"><i class="fa fa-5x fa-twitter-square" style="color: #1DA1F2;"></i></a>
+
+                      <a href="https://github.com/DIBO237"><i class="fa fa-5x fa-github-square" style="color: #333;"></i></a>
+                      <a href="https://in.linkedin.com/in/dibyo-dey-33932915a"><i class="fa fa-5x fa-linkedin-square" style="color: #0e76a8;"></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+
+<footer class="container-fluid" style="background-color: #304146; ">
+    <div class="container text-center" style="padding-top: 10px; padding-bottom: 5px; color: white;">
+        <h5>Copyright &copy; 2021 | Designed and Developed by Dibya Dey</h5>
+        
+    </div>
+    
+
+</footer>
+   <script src="https://unpkg.com/jquery@3.6.0/dist/jquery.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script type="text/javascript">
+      AOS.init();
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+<script >var i = 0;
+var txt = 'Dibya Dey';
+var speed = 150;
+
+function type() {
+  if (i < txt.length) {
+    document.getElementById("name").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(type, speed);
+  }
+}
+
+document.addEventListener('DOMContentLoaded',function(event){
+  // array with texts to type in typewriter
+  var dataText = [ "A WEB Developer", "A Social Media Marketer", "A Search Engine Optimizer", "A Human Resource Manager" , "An Ads Optimzer "];
+  
+  // type one text in the typwriter
+  // keeps calling itself until the text is finished
+  function typeWriter(text, i, fnCallback) {
+    // chekc if text isn't finished yet
+    if (i < (text.length)) {
+      // add next character to h1
+     document.getElementById("de").innerHTML = text.substring(0, i+1) +'<span aria-hidden="true"></span>';
+
+      // wait for a while and call this function again for next character
+      setTimeout(function() {
+        typeWriter(text, i + 1, fnCallback)
+      }, 100);
+    }
+    // text finished, call callback if there is a callback function
+    else if (typeof fnCallback == 'function') {
+      // call callback after timeout
+      setTimeout(fnCallback, 700);
+    }
+  }
+  // start a typewriter animation for a text in the dataText array
+   function StartTextAnimation(i) {
+     if (typeof dataText[i] == 'undefined'){
+        setTimeout(function() {
+          StartTextAnimation(0);
+        }, 1000);
+     }
+     // check if dataText[i] exists
+    if (i < dataText[i].length) {
+      // text exists! start typewriter animation
+     typeWriter(dataText[i], 0, function(){
+       // after callback (and whole text has been animated), start next text
+       StartTextAnimation(i + 1);
+     });
+    }
+  }
+  // start the text animation
+  StartTextAnimation(0);
+});</script>
+
+<script type="text/javascript">
+    var btn = $('#button');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+
+
+</script>
+</body>
+</html>
